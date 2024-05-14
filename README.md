@@ -50,11 +50,11 @@ you can specify different params like
 
 ## Models
 
-This script contains the definition of the models we will train to try to perform a good classification of the audios. It contains some models from scratch and other pretrained ones. Feel free to include new models in order to get a better accuracy in the classification.
+``models.py`` contains the definition of the models we will train to try to perform a good classification of the audios. It contains some models from scratch and other pretrained ones. Feel free to include new models in order to get a better accuracy in the classification.
 
 ## Training
 
-This script is in charge of training the different models defined in the ``models.py`` script. It performs a train_test_split with the data contained in ``clean_folder``.
+``train.py`` is in charge of training the different models defined in the ``models.py`` script. It performs a train_test_split with the data contained in ``clean_folder``.
 
 By changing the ``model_type`` parameter we can choose the model we want to train, like this:
 
