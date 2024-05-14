@@ -79,4 +79,9 @@ Here we will deposit the audio that we want to predict (**Remember:** only one a
 
 ## mp3 and wav_validation
 
-This folders will contain the audios (in .mp3 and .wav format respectively) that we can use to test the classificator
+This folders will contain the audios (in .mp3 and .wav format respectively) that we can use to test the classificator.
+
+<p align="center">
+  <img width="227" alt="image" src="https://github.com/fernandocarballeda/Musical_Instrument_Audio_Classification/assets/144034714/b528f0d2-6a79-4741-bdfe-53dedab5cf81">
+  <img width="226" alt="image" src="https://github.com/fernandocarballeda/Musical_Instrument_Audio_Classification/assets/144034714/52d28f9e-f830-43fe-b95e-e262f0b60e9c">
+</p>
