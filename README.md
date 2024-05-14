@@ -72,4 +72,3 @@ Once the model is trained, it is stored in ``models_folder``.
 When a model is trained using the ``train.py`` script, a new file is generated in this folder, with information about the training and validation accuracy and training and validation loss for each epoch.
 
 <img width="497" alt="image" src="https://github.com/fernandocarballeda/Musical_Instrument_Audio_Classification/assets/144034714/169d8940-9d2b-4797-97a5-864e8e61fd8e">
-
