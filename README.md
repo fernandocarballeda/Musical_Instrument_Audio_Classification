@@ -54,11 +54,18 @@ This script contains the definition of the models we will train to try to perfor
 
 ## train.py
 
-This script is in charge of training the different models defined in the ``models.py`` script. It performas a train_test_split with the data contained in the ``clean`` folder.
+This script is in charge of training the different models defined in the ``models.py`` script. It performs a train_test_split with the data contained in ``clean_folder``.
 
 By changing the ``model_type`` parameter we can choose the model we want to train, like this:
 
-``python train.py --model_type lstm``
+```
+python train.py --model_type lstm
+```
+
+Once the model is trained, it is stored in ``models_folder``.
+
+<img width="221" alt="image" src="https://github.com/fernandocarballeda/Musical_Instrument_Audio_Classification/assets/144034714/2716915b-3f40-4414-bd4f-c03e4d94baf4">
+
 
 ## logs
 
