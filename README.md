@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 Now, you can open Jupyter or Visual Studio Code to start looking and using the content.
 
-## wavfiles
+## Audio files
 
 ``wavfiles`` folder contains audios in .wav format of different musical instruments.
 
@@ -32,7 +32,7 @@ C:\ffmpeg\bin\ffmpeg -i audio_name.mp3 audio_name.wav
 
 Here is some useful information on how to install this converter: https://phoenixnap.com/kb/ffmpeg-windows
 
-## clean.py
+## Data cleaning
 
 ``clean.py`` script provides a set of tools for processing and cleaning the audio data.
 
