@@ -48,11 +48,11 @@ you can specify different params like
 
 ``--delta_time`` to choose the time in seconds of the generated audios.
 
-## models.py
+## Models
 
 This script contains the definition of the models we will train to try to perform a good classification of the audios. It contains some models from scratch and other pretrained ones. Feel free to include new models in order to get a better accuracy in the classification.
 
-## train.py
+## Training
 
 This script is in charge of training the different models defined in the ``models.py`` script. It performs a train_test_split with the data contained in ``clean_folder``.
 
