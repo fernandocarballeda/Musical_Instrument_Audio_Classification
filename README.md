@@ -72,3 +72,7 @@ Once the model is trained, it is stored in ``models_folder``.
 When a model is trained using the ``train.py`` script, a new file is generated in this folder, with information about the training and validation accuracy and training and validation loss for each epoch.
 
 <img width="497" alt="image" src="https://github.com/fernandocarballeda/Musical_Instrument_Audio_Classification/assets/144034714/169d8940-9d2b-4797-97a5-864e8e61fd8e">
+
+## predict_folder
+
+Here we will deposit the audio that we want to predict (**Remember:** only one audio at a time). When executing the ``predict.py`` script the process will start. A new folder called ``predict_dir_cleaned`` will be created, containing the one-second duration segments of the input audio. A function will be applied to this folder to delete those segments with no audio (something like this can happen). Afterwards, you will see in the console the prediction for each segment, the Mean Prediction Class (the class with more average probability) and the Global Prediction (most predicted class of the segments).
