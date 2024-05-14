@@ -40,7 +40,9 @@ It starts by splitting audios in ``wavfiles`` folder into smaller segments (1.0 
 
 To execute this script, run the next command in the terminal:
 
-``python clean.py``
+```
+python clean.py
+```
 
 you can specify different params like
 
