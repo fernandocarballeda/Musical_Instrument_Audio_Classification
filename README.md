@@ -8,11 +8,11 @@ git clone https://github.com/fernandocarballeda/Musical_Instrument_Audio_Classif
 
 in your terminal, while you are in the directory you want the repository to get created. Go inside the ``Musical_Instrument_Audio_Classification`` folder and execute the following commands to create a conda environment and install the necessary libraries:
 
-``conda create -n miac python=3.7``
+```conda create -n miac python=3.7
 
-``activate miac``
+activate miac
 
-``pip install -r requirements.txt``
+pip install -r requirements.txt```
 
 Now, you can open Jupyter or Visual Studio Code to start looking and using the content.
 
