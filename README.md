@@ -79,6 +79,6 @@ In ``predict_folder`` we will deposit the audio that we want to predict (**Remem
 
 **Important:** Once you have predicted an audio, you must delete the ``predict_dir_cleaned`` folder to avoid errors when performing the next prediction.
 
-## mp3 and wav_validation
+## Validation data
 
-This folders will contain the audios (in .mp3 and .wav format respectively) that we can use to test the classificator.
+This folders will contain the audios (in .mp3 and .wav format respectively) that we can use to test the classificator. If you want to try how does it work with your own audios, download them and place them here.
