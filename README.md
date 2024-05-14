@@ -28,6 +28,9 @@ If we want to add more data to this folder we have to download from the Internet
 
 Here is some useful information on how to install this converter: https://phoenixnap.com/kb/ffmpeg-windows
 
+<img width="225" alt="image" src="https://github.com/fernandocarballeda/Musical_Instrument_Audio_Classification/assets/144034714/a4b5db6e-8148-4297-b9e9-a80ada99ef7f">
+
+
 ## clean.py
 
 ``clean.py`` script provides a set of tools for processing and cleaning the audio data.
