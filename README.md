@@ -22,16 +22,15 @@ Now, you can open Jupyter or Visual Studio Code to start looking and using the c
 
 ``wavfiles`` folder contains audios in .wav format of different musical instruments.
 
+<img width="225" alt="image" src="https://github.com/fernandocarballeda/Musical_Instrument_Audio_Classification/assets/144034714/a4b5db6e-8148-4297-b9e9-a80ada99ef7f">
+
+If we want to add more data to this folder in order to train with more data or include more instruments in the classificator we have to download from the Internet the audio in .mp3 format and, using FFmpeg converter, change its file type to .wav using this command in the terminal:
+
 ```
 C:\ffmpeg\bin\ffmpeg -i audio_name.mp3 audio_name.wav
 ```
 
-If we want to add more data to this folder in order to train with more data or include more instruments in the classificator we have to download from the Internet the audio in .mp3 format and, using FFmpeg converter, change its file type to .wav using this command in the terminal:
-
 Here is some useful information on how to install this converter: https://phoenixnap.com/kb/ffmpeg-windows
-
-<img width="225" alt="image" src="https://github.com/fernandocarballeda/Musical_Instrument_Audio_Classification/assets/144034714/a4b5db6e-8148-4297-b9e9-a80ada99ef7f">
-
 
 ## clean.py
 
