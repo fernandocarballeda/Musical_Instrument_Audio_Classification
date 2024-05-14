@@ -77,6 +77,8 @@ When a model is trained using the ``train.py`` script, a new file is generated i
 
 In ``predict_folder`` we will deposit the audio that we want to predict (**Remember:** only one audio at a time). When executing the ``predict.py`` script the process will start. A new folder called ``predict_dir_cleaned`` will be created, containing the one-second duration segments of the input audio. A function will be applied to this folder to delete those segments with no audio (something like this can happen). Afterwards, you will see in the console the prediction for each segment, the Mean Prediction Class (the class with more average probability) and the Global Prediction (most predicted class for all the segments).
 
+**Important:** Once you have predicted an audio, you must delete the ``predict_dir_cleaned`` folder to avoid errors when performing the next prediction.
+
 ## mp3 and wav_validation
 
 This folders will contain the audios (in .mp3 and .wav format respectively) that we can use to test the classificator.
